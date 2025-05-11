@@ -16,3 +16,12 @@ Console.WriteLine(separator);
 for (int i = 1; i <= 20; i++)
     if(i % 2 == 0)
         Console.WriteLine(i);
+
+Console.WriteLine(separator);
+
+//fourth step
+
+int sum = 0;
+for (int i = 50; i <= 150; i++)
+    sum += i;
+Console.WriteLine(sum);
